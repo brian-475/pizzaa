@@ -1,16 +1,12 @@
 *{
-    background-image:url(https://go.aws/3adjkCz);
+    background-image:url(https://bit.ly/2I0KNey);
     font-family: 'Montserrat',;
     background-size:cover;
-    background-repeat: no repeat;
+    background-repeat:no-repeat;
     background-attachment: fixed;
     
 }
 nav li{
-    background-image:url();
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     text-align: center;
     list-style: none;
     font-size: 60px;
@@ -19,11 +15,12 @@ nav li{
 .one{
     font-size: 75px;
     text-align: center;
-    margin-top:70px;
+    margin-top:170px;
+    margin-bottom: 100px;
 }
 .two{
     text-align: center;
-    font-size: 40px;
+    font-size: 45px;
     color:black;
     font-weight: bolder;
 }
@@ -31,4 +28,12 @@ nav li{
     text-align: center;
     float:center;
     margin-left:300px;
+}
+#ten{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+}
+a{
+    color:black;
 }
