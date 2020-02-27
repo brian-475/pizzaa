@@ -1,6 +1,10 @@
 *{
-    background-color:cyan;
+    background-image:url(https://go.aws/3adjkCz);
     font-family: 'Montserrat',;
+    background-size:cover;
+    background-repeat: no repeat;
+    background-attachment: fixed;
+    
 }
 nav li{
     background-image:url();
@@ -10,6 +14,7 @@ nav li{
     text-align: center;
     list-style: none;
     font-size: 60px;
+    color:black;
 }
 .one{
     font-size: 75px;
@@ -18,6 +23,12 @@ nav li{
 }
 .two{
     text-align: center;
-    font-size: 35px;
-
+    font-size: 40px;
+    color:black;
+    font-weight: bolder;
+}
+.three{
+    text-align: center;
+    float:center;
+    margin-left:300px;
 }
