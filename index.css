@@ -1,0 +1,23 @@
+*{
+    background-color:cyan;
+    font-family: 'Montserrat',;
+}
+nav li{
+    background-image:url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    list-style: none;
+    font-size: 60px;
+}
+.one{
+    font-size: 75px;
+    text-align: center;
+    margin-top:70px;
+}
+.two{
+    text-align: center;
+    font-size: 35px;
+
+}
