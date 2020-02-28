@@ -1,19 +1,21 @@
-body{
-    background-image:url();
-    font-family: 'Montserrat',;
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-attachment: fixed;
-    overflow-x: hidden;
-    
+*{
+    font-family: 'Sriracha', cursive;
 }
 nav li{
     text-align: center;
-    list-style: none;
     font-size: 60px;
-    color:black;
+    font-weight: 900;
+    color:red;
+    list-style: none;
     background-color: cyan;
-    background-size: cover;
+    height:100px;
+
+}
+body{
+   background-color:red;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
 }
 .one{
     font-size: 75px;
@@ -36,9 +38,7 @@ nav li{
     text-align: center;
     font-size: 30px;
     font-weight: bolder;
-}
-a{
-    color:black;
+
 }
 .four{
     text-align: center;
@@ -58,8 +58,11 @@ footer{
     text-align: center;
     font-size: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:red;
+    color:black;
 }
 #dog{
     color:white;
+}
+a{
+    color:red;
 }
