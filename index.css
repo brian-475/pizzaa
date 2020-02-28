@@ -5,10 +5,9 @@ nav li{
     text-align: center;
     font-size: 60px;
     font-weight: 900;
-    color:red;
     list-style: none;
-    background-color: cyan;
     height:100px;
+    color:black;
 
 }
 body{
@@ -22,6 +21,7 @@ body{
     text-align: center;
     margin-top:170px;
     margin-bottom: 100px;
+    text-decoration: underline;
 }
 .two{
     text-align: center;
@@ -33,6 +33,7 @@ body{
     text-align: center;
     float:center;
     margin-left:300px;
+    margin-top:150px;
 }
 #ten{
     text-align: center;
@@ -64,5 +65,58 @@ footer{
     color:white;
 }
 a{
-    color:red;
+    color:black;
+}
+.mouse{
+    text-align: center;
+    font-size: 65px;
+
+}
+#pizzaone{
+    color:black;
+    font-size: large;
+    text-align: center;
+    display:;
+}
+#pizzatwo{
+    color:black;
+    font-size: large;
+    text-align: center;
+    display: ;
+}
+#pizzathree{
+    color:black;
+    font-size: large;
+    text-align: center;
+    display: ;
+}
+#pizzafour{
+    color:black;
+    font-size: large;
+    text-align: center;
+    display:;
+}
+#pizzafive{
+    color:black;
+    font-size: large;
+    text-align: center;
+    display:;
+}
+#pizzasix{
+    color:black;
+    font-size: large;
+    text-align: center;
+    display:;
+}
+#pizzaseven{
+    color:black;
+    font-size: large;
+    text-align: center;
+    display:;
+}
+pizzaeight{
+    color:black;
+    font-size: large;
+    text-align: center;
+    display:;
 }
