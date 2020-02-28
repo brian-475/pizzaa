@@ -1,5 +1,5 @@
-*{
-    background-image:url(https://bit.ly/2I0KNey);
+body{
+    background-image:url();
     font-family: 'Montserrat',;
     background-size:cover;
     background-repeat:no-repeat;
@@ -12,6 +12,8 @@ nav li{
     list-style: none;
     font-size: 60px;
     color:black;
+    background-color: cyan;
+    background-size: cover;
 }
 .one{
     font-size: 75px;
@@ -39,9 +41,7 @@ a{
     color:black;
 }
 .four{
-    background-color: black;
-    margin-left:300px;
-    margin-bottom: 70px;
+    text-align: center;
 }
 .five{
     text-align: center;
@@ -50,4 +50,16 @@ a{
     color:black;
     margin-top: 30px;
     margin-bottom: 70px;
+}
+footer{
+    background-color: cyan;
+}
+.cat{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:red;
+}
+#dog{
+    color:white;
 }
