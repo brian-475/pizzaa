@@ -61,9 +61,8 @@ footer{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:black;
 }
-#dog{
-    color:white;
-}
+/*#dog{
+    color:white;*/
 a{
     color:black;
 }
@@ -74,49 +73,49 @@ a{
 }
 #pizzaone{
     color:black;
-    font-size: large;
+    font-size: 20px;
     text-align: center;
-    display:;
+    display:none;
 }
 #pizzatwo{
     color:black;
     font-size: large;
     text-align: center;
-    display: ;
+    display: none;
 }
 #pizzathree{
     color:black;
     font-size: large;
     text-align: center;
-    display: ;
+    display:none ;
 }
 #pizzafour{
     color:black;
     font-size: large;
     text-align: center;
-    display:;
+    display:none;
 }
 #pizzafive{
     color:black;
     font-size: large;
     text-align: center;
-    display:;
+    display:none;
 }
 #pizzasix{
     color:black;
     font-size: large;
     text-align: center;
-    display:;
+    display:none;
 }
 #pizzaseven{
     color:black;
     font-size: large;
     text-align: center;
-    display:;
+    display:none;
 }
-pizzaeight{
+#pizzaeight{
     color:black;
     font-size: large;
     text-align: center;
-    display:;
+    display:none;
 }
