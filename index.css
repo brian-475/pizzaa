@@ -119,3 +119,23 @@ a{
     text-align: center;
     display:none;
 }
+#sat{
+    text-align: center;
+    font-size: large;
+    display:none;
+}
+#love{
+    text-align: center;
+    font-size: large;
+    display:none;
+}
+#lie{
+    text-align: center;
+    font-size: large;
+    display: none;
+}
+#too{
+    text-align: center;
+    font-size: large;
+    display: none;
+}

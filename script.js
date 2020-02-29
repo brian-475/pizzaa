@@ -42,12 +42,60 @@ $("document").ready(function(){
         $("#pizzaseven").show();
     })
     $("#time").mouseleave(function(){
-        $("#pizzaseven").hide()()
+        $("#pizzaseven").hide();
     })
     $("#of").mouseenter(function(){
         $("#pizzaeight").show();
     })
-    $("#of"),mouseleave(function(){
+    $("#of").mouseleave(function(){
         $("#pizzaeight").hide();
     })
 })
+
+//my toggle work
+$("document").ready(function(){
+    $("#why").click(function(){
+        $("#sat").toggle();
+    })
+    $("#are").click(function(){
+        $("#love").toggle();
+    })
+    $("#you").click(function(){
+        $("#lie").toggle();
+    })
+    $("#here").click(function(){
+        $("#too").toggle();
+    })
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
