@@ -1,6 +1,6 @@
 //This is my hover js
 
-$("document").ready(function(){
+/*$("document").ready(function(){
     $(" #why").mouseenter(function(){
         $("#pizzaone").show();
     })
@@ -50,7 +50,7 @@ $("document").ready(function(){
     $("#of").mouseleave(function(){
         $("#pizzaeight").hide();
     })
-})
+})*/
 
 //my toggle work
 $("document").ready(function(){
@@ -66,7 +66,21 @@ $("document").ready(function(){
     $("#here").click(function(){
         $("#too").toggle();
     })
+    $("#at").click(function(){
+        $("#sing").toggle();
+    })
+    $("#this").click(function(){
+        $("#dance").toggle();
+    })
+    $("#time").click(function(){
+        $("#eat").toggle();
+    })
+    $("#of").click(function(){
+        $("#sleep").toggle();
+    })
 })
+//my js
+
 
 
 

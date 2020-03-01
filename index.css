@@ -75,49 +75,41 @@ a{
     color:black;
     font-size: 20px;
     text-align: center;
-    display:none;
 }
 #pizzatwo{
     color:black;
     font-size: large;
     text-align: center;
-    display: none;
 }
 #pizzathree{
     color:black;
     font-size: large;
     text-align: center;
-    display:none ;
 }
 #pizzafour{
     color:black;
     font-size: large;
     text-align: center;
-    display:none;
 }
 #pizzafive{
     color:black;
     font-size: large;
     text-align: center;
-    display:none;
 }
 #pizzasix{
     color:black;
     font-size: large;
     text-align: center;
-    display:none;
 }
 #pizzaseven{
     color:black;
     font-size: large;
     text-align: center;
-    display:none;
 }
 #pizzaeight{
     color:black;
     font-size: large;
     text-align: center;
-    display:none;
 }
 #sat{
     text-align: center;
@@ -138,4 +130,71 @@ a{
     text-align: center;
     font-size: large;
     display: none;
+}
+#sing{
+    text-align: center;
+    font-size: large;
+    display: none;
+}
+#eat{
+    text-align: center;
+    font-size: large;
+    display: none;
+}
+#dance{
+    text-align: center;
+    font-size: large;
+    display: none;
+}
+#sleep{
+    text-align: center;
+    font-size: large;
+    display: none;
+}
+#palace{
+    margin-top:70px;
+    align-items: center;
+    justify-content: center;
+    background-color: cyan;
+    color:black;
+    height:50px;
+    width:200px;
+    font-size: 25px;
+    margin-bottom: 70px;
+    margin-left:680px;
+}
+#form{
+    font-size: 40px;
+    display:block;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-left:250px;
+}
+#form2{
+    text-align: center;
+    font-size:40px;
+    display: block;
+    margin-left:250px;
+    margin-bottom:30px;
+}
+#form3{
+    text-align: center;
+    font-size:30px ;
+    margin-left:250px;
+    display: block;
+    margin-bottom: 30px;
+}
+#form4{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 250px;
+    display:block;
+    margin-bottom:30px ;
+}
+#form5{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 250px;
+    display: block;
+    margin-bottom: 30px;
 }
