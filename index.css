@@ -51,7 +51,7 @@ body{
 .five{
     text-align: center;
     font-size: 45px;
-    font-weight: 800;
+    font-weight: bolder;
     color:black;
     margin-top: 30px;
     margin-bottom: 70px;
@@ -61,6 +61,7 @@ body{
     font-size: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color:black;
+    font-weight: bolder;
 }
 /*#dog{
     color:white;*/
