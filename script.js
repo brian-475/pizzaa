@@ -86,23 +86,25 @@ $("document").ready(function(){
 $("document").ready(function(){
     $("#home").click(function(){
         event.preventDefault();
-        var size=parseInt($("#form").val());
-        var name=parseInt($("#form2").val());
+        var size=parseInt($("#form2").val());
+        var name=parseInt($("#form").val());
         var crust=parseInt($("#form3").val());
         var topping=parseInt($("#form4").val());
         var savory=parseInt($("#form5").val());
         var lux=parseInt($("#form6"));
         var quantity=parseInt($("#quan").val());
-        var amount=(crust*quantity || topping*quantity || savory*quantity ||lux*quantity);
+        var amount=quantity*(size+crust ||size+topping||size+savory||size+lux||size+crust+topping+savory+lux);
+        var delivery=1500;
+        var deli=delivery+amount
         if(size===""|| name==="" || crust==="" || topping==="" ||savory==="" || lux==="" || quantity==="")
             alert("fill in the form and place the order immediatly");
         else if(size==="small"|| size==="medium"|| size==="large"||name==="#form2" ||
         crust==="#form3" || topping==="#form4" || savory==="#form5" || lux==="#form6"||quantity==="#quan");{
-            alert("We have received that information");
+            alert("Welcome and feel at home. We have received that interest information");
             prompt("Where do you reside in?");
             alert("Delivery cost will be and is constant upon all routes 1500")
-            alert("Thankyou for shopping at the Pizza palace");
-            alert("you have choosen"+''+name+"and the amount is"+""+amount);
+            alert("Thank you for shopping at the Pizza palace");
+            alert("you have choosen" + quantity +""+ ""+ "Pizza "+"and the amount is"+""+ deli+"Ksh");
         }
 
     })
