@@ -161,7 +161,7 @@ a{
     width:200px;
     font-size: 25px;
     margin-bottom: 70px;
-    margin-left:680px;
+    margin-left:370px;
 }
 #form{
     font-size: 40px;
@@ -198,3 +198,36 @@ a{
     display: block;
     margin-bottom: 30px;
 }
+#form6{
+    text-align: center;
+    font-size: 30px;
+    margin-left:250px ;
+    display: block;
+    margin-bottom: 30px;
+}
+.Quantity{
+    font-size: 30px;
+    display: block;
+    margin-bottom: 30px;
+    background-color: white;
+    height: 50px;
+    width:150px;
+    margin-left: 400px;
+}
+#home{
+    margin-top:70px;
+    align-items: center;
+    justify-content: center;
+    background-color: cyan;
+    color:black;
+    height:50px;
+    width:200px;
+    font-size: 25px;
+    margin-bottom: 70px;
+    margin-left:370px;
+}
+#form10{
+    /*display:none;*/
+}
+
+

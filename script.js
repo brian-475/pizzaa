@@ -79,12 +79,46 @@ $("document").ready(function(){
         $("#sleep").toggle();
     })
 })
-//my js
+$("document").ready(function(){
+    $("#palace").click(function(){
+        $("#form10").toggle();
+    })
+})
+// my js
+function findName(){
+    var name=document.getElementById("#form").value;
+    var nme=parseInt(name);
+}
+function getSize(){
+    var size=document.getElementById("#form2").value;
+    var sze=parseInt(size);
+}
+function getCrust(){
+    var crust=document.getElementById("#form3").value;
+    var crst=parseInt(crust);
+}
+function getToppings(){
+    var topping=document.getElementById("#form4").value;
+    var topp=parseInt(topping);
+}
+function getSavorySauce(){
+    var sauce=document.getElementById("#form5").value;
+    var sace=parseInt(sauce);
+}
+function getLux(){
+    var lux=document.getElementById("#form6").value;
+    var lx=parseInt(lux);
+}
+function quantity(){
+    var quantity=document.getElementById("#Quantity").value;
+    var quan=parseInt(quantity);
+}
+function checkOut(){
+    var total=(findName()+getSize()+getCrust()+getToppings()+getSavorySauce()+getLux())*quantity()
+    alert("kindly fill in the form");
+}
 
-
-
-
-
+    
 
 
 
