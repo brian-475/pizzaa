@@ -78,72 +78,32 @@ $("document").ready(function(){
     $("#of").click(function(){
         $("#sleep").toggle();
     })
-})
-$("document").ready(function(){
     $("#palace").click(function(){
         $("#form10").toggle();
     })
 })
-// my js
-function findName(){
-    var name=document.getElementById("#form").value;
-    var nme=parseInt(name);
-}
-function getSize(){
-    var size=document.getElementById("#form2").value;
-    var sze=parseInt(size);
-}
-function getCrust(){
-    var crust=document.getElementById("#form3").value;
-    var crst=parseInt(crust);
-}
-function getToppings(){
-    var topping=document.getElementById("#form4").value;
-    var topp=parseInt(topping);
-}
-function getSavorySauce(){
-    var sauce=document.getElementById("#form5").value;
-    var sace=parseInt(sauce);
-}
-function getLux(){
-    var lux=document.getElementById("#form6").value;
-    var lx=parseInt(lux);
-}
-function quantity(){
-    var quantity=document.getElementById("#Quantity").value;
-    var quan=parseInt(quantity);
-}
-function checkOut(){
-    var total=(findName()+getSize()+getCrust()+getToppings()+getSavorySauce()+getLux())*quantity()
-    alert("kindly fill in the form");
-}
+//my JavaScript
+$("document").ready(function(){
+    $("#home").click(function(){
+        event.preventDefault();
+        var size=parseInt($("#form").val());
+        var name=parseInt($("#form2").val());
+        var crust=parseInt($("#form3").val());
+        var topping=parseInt($("#form4").val());
+        var savory=parseInt($("#form5").val());
+        var lux=parseInt($("#form6"));
+        var quantity=parseInt($("#quan").val());
+        var amount=(crust*quantity || topping*quantity || savory*quantity ||lux*quantity);
+        if(size===""|| name==="" || crust==="" || topping==="" ||savory==="" || lux==="" || quantity==="")
+            alert("fill in the form and place the order immediatly");
+        else if(size==="small"|| size==="medium"|| size==="large"||name==="#form2" ||
+        crust==="#form3" || topping==="#form4" || savory==="#form5" || lux==="#form6"||quantity==="#quan");{
+            alert("We have received that information");
+            prompt("Where do you reside in?");
+            alert("Delivery cost will be and is constant upon all routes 1500")
+            alert("Thankyou for shopping at the Pizza palace");
+            alert("you have choosen"+''+name+"and the amount is"+""+amount);
+        }
 
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    })
+})
