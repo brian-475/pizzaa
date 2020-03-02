@@ -2,7 +2,7 @@
 
 The application is all about getting people to order quality and clean pizza.
 
-#### By **I made this application alone. No contributors.**
+####  **I made this application alone. No contributors.**
 ## Description
 The purpose of this application is to reffer to the date of birth through the user input and calculate their Akan names.
 ## Setup/Installation Requirements
