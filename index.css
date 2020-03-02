@@ -1,5 +1,10 @@
 *{
     font-family: 'Sriracha', cursive;
+    background-image: url(https://bit.ly/398houT);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
 }
 nav li{
     text-align: center;
@@ -11,7 +16,6 @@ nav li{
 
 }
 body{
-   background-color:red;
    background-repeat: no-repeat;
    background-size: cover;
    background-attachment: fixed;
@@ -71,85 +75,46 @@ a{
     font-size: 65px;
 
 }
-#pizzaone{
-    color:black;
-    font-size: 20px;
-    text-align: center;
-}
-#pizzatwo{
-    color:black;
-    font-size: large;
-    text-align: center;
-}
-#pizzathree{
-    color:black;
-    font-size: large;
-    text-align: center;
-}
-#pizzafour{
-    color:black;
-    font-size: large;
-    text-align: center;
-}
-#pizzafive{
-    color:black;
-    font-size: large;
-    text-align: center;
-}
-#pizzasix{
-    color:black;
-    font-size: large;
-    text-align: center;
-}
-#pizzaseven{
-    color:black;
-    font-size: large;
-    text-align: center;
-}
-#pizzaeight{
-    color:black;
-    font-size: large;
-    text-align: center;
-}
 #sat{
     text-align: center;
-    font-size: large;
-    display:none;
+    font-size: 25px;
+    font-weight: bold;
 }
 #love{
     text-align: center;
-    font-size: large;
-    display:none;
+    font-size: 25px;
+    font-weight: bold;
 }
 #lie{
     text-align: center;
-    font-size: large;
-    display: none;
+    font-size: 25px;
+    font-weight: bold;
 }
 #too{
     text-align: center;
-    font-size: large;
-    display: none;
+    font-size: 25px;
+    font-weight: bold;
 }
 #sing{
     text-align: center;
-    font-size: large;
-    display: none;
+    font-size: 25px;
+    font-weight: bold;
 }
 #eat{
     text-align: center;
-    font-size: large;
-    display: none;
+    font-size: 25px;
+    font-weight: bold;
 }
 #dance{
     text-align: center;
-    font-size: large;
-    display: none;
+    font-size: 25px;
+    font-weight: bold;
 }
 #sleep{
     text-align: center;
-    font-size: large;
-    display: none;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: white;
 }
 #palace{
     margin-top:70px;
@@ -157,11 +122,13 @@ a{
     justify-content: center;
     background-color: cyan;
     color:black;
-    height:50px;
-    width:200px;
-    font-size: 25px;
+    height:100px;
+    width:300px;
+    font-size: 40px;
     margin-bottom: 70px;
     margin-left:370px;
+    font-weight: 900;
+    border:5px solid red;
 }
 #form{
     font-size: 40px;
@@ -169,6 +136,9 @@ a{
     margin-bottom: 30px;
     text-align: center;
     margin-left:250px;
+    background-color: red;
+    font-weight: bold;
+    border:5px solid red;
 }
 #form2{
     text-align: center;
@@ -176,43 +146,56 @@ a{
     display: block;
     margin-left:250px;
     margin-bottom:30px;
+    background-color: red;
+    font-weight: bold;
+    border:5px solid red;
 }
 #form3{
     text-align: center;
-    font-size:30px ;
+    font-size:40px ;
     margin-left:250px;
     display: block;
     margin-bottom: 30px;
+    background-color: red;
+    font-weight: bold;
+    border:5px solid red;
 }
 #form4{
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 250px;
     display:block;
     margin-bottom:30px ;
+    font-weight: bold;
+    border:5px solid red;
 }
 #form5{
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 250px;
     display: block;
     margin-bottom: 30px;
+    font-weight: bold;
+    border:5px solid red;
 }
 #form6{
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     margin-left:250px ;
     display: block;
     margin-bottom: 30px;
+    font-weight: bold;
+    border:5px solid red;
 }
 .Quantity{
-    font-size: 30px;
+    font-size: 40px;
     display: block;
     margin-bottom: 30px;
     background-color: white;
-    height: 50px;
-    width:150px;
+    height: 100px;
+    width:170px;
     margin-left: 400px;
+    font-weight: bold;
 }
 #home{
     margin-top:70px;
@@ -220,14 +203,21 @@ a{
     justify-content: center;
     background-color: cyan;
     color:black;
-    height:50px;
-    width:200px;
-    font-size: 25px;
+    height:100px;
+    width:300px;
+    font-size: 40px;
     margin-bottom: 70px;
     margin-left:370px;
+    font-weight: 900;
+    border:5px solid red;
 }
 #form10{
     display:none;
+    background-color: red;
+    font-size: 40px;
 }
-
+#quan{
+    background-color: darkgrey;
+    font-weight: bold;
+}
 
