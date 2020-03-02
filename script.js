@@ -89,7 +89,7 @@ function findName(){
     var name=document.getElementById("#form").value;
     var nme=parseInt(name);
 }
-/*function getSize(){
+function getSize(){
     var size=document.getElementById("#form2").value;
     var sze=parseInt(size);
 }
